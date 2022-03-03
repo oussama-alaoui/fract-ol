@@ -1,2 +1,20 @@
-# fract-ol
-Here’s what Wikipedia has to say on hydraulic fracturing: The "hydraulic fracturing," is the targeted disruption of geological formations with low permeability by means of injection under high pressure of a fluid to micro-cracking and crack the rock. This fracturing can be performed near the surface or at depth (over 1 km or more than 4 km in the case of shale gas) and from vertical wells, sloped or horizontal. This relatively old technique (1947), developed for conventional oil deposits, is renewed by its association with horizontal drilling (developed from 1980). It is the gradual mastery of the economic viability of this association for non-conventional deposits, who guided the recent development of the operation of these: it made available formerly inaccessible resources, or which have been exploited at exorbitant costs and slowly. It is carried out by fracturing the rock with a "stress" mécanique3 using a fluid injected under high pressure from a surface drilling, to increase the macro-porosity and the micro-porosity. The fluid could be the water, a slurry or a technical fluid whose viscosity was adjusted. This project is not called fract’oil and accordingly has no relation to hydraulic fracturing.
+Fract'ol @ 42
+![image](https://user-images.githubusercontent.com/93790986/156594720-b8ea763e-bc74-4ba8-8b3e-9bc8deeb3821.png)
+
+A multithreaded fractal renderer.
+
+Features
+Render different fractals: mandelbrot, julia, burning ship
+Different color schemes (rotated and linear)
+Smooth and linear coloring
+Planned features
+Calculate values with OpenCL
+Selective anti-aliasing
+Chunked rendering to buffer while moving around
+Compiling and running
+Run make. An executable will compile. Runs on OS X and Linux.
+
+Run it with ./fractol [fractal]. Possible fractals are: mandelbrot, julia, burningship. Cycle color-schemes with 1-9 on the top row. Increase/decrease maximum iterations with * and / on the numpad. Zoom in and out with the mousewheel or with + and -. Press Enter on the numpad to switch between smooth coloring and linear coloring.
+
+License
+This project is licensed under the GNU General Public License 3.
